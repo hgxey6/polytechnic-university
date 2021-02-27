@@ -15,7 +15,7 @@ package week5;
 
 public class Businessman {
 
-    private String name;
+    private final String name;
     private double salary;
 
 
