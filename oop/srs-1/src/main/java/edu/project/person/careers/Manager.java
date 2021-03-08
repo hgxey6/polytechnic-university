@@ -8,6 +8,10 @@ import edu.project.person.Employee;
  */
 public class Manager extends Employee implements ProjectManagement {
 
+    public Manager() {
+
+    }
+
     @Override
     public void work() {
         System.out.println("Manager is working");

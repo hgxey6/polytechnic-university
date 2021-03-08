@@ -44,6 +44,7 @@ public class Programmer extends Employee {
             case FRONTEND -> System.out.println("Programmer writes code in JS");
             case SYSTEM_DEV -> System.out.println("Programmer writes code in Rust");
             case TESTER -> System.out.println("Programmer writes code in Python");
+            default -> System.out.println("Programmer writes code in C++");
         }
     }
 }

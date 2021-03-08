@@ -1,4 +1,4 @@
-import edu.project.actions.Leadable;
+import edu.project.actions.Leadership;
 import edu.project.person.Employee;
 import edu.project.person.careers.*;
 import edu.project.person.enums.Gender;
@@ -47,14 +47,14 @@ public class ObjectOrientationTest {
 
     @Test
     public void polymorphismCheck2() {
-        List<Leadable> leads = new ArrayList<>();
+        List<Leadership> leads = new ArrayList<>();
         leads.addAll(Arrays.asList(
                 new ManagerLead(),
                 new ProgrammerLead(),
                 new AccountantLead()
         ));
 
-        for(Leadable l : leads) {
+        for(Leadership l : leads) {
             l.toLead();
             l.salaryBonus();
         }
