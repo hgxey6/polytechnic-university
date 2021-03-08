@@ -1,7 +1,4 @@
-import edu.project.person.careers.Accountant;
-import edu.project.person.careers.AccountantLead;
-import edu.project.person.careers.Manager;
-import edu.project.person.careers.Programmer;
+import edu.project.person.careers.*;
 import edu.project.person.enums.CategoryOfProgrammers;
 import edu.project.person.enums.Gender;
 import edu.project.person.enums.Rank;
@@ -79,5 +76,29 @@ public class EmployeeTest {
         programmer.writeCode();
 
         System.out.println(programmer);
+    }
+
+    @Test
+    public void bossTest() {
+        Boss boss = new Boss();
+
+        Programmer programmer = new Programmer();
+        programmer.setName("Maria");
+        programmer.setLastName("Znamenskaya");
+        programmer.setSalary(5000);
+
+        Manager manager = new Manager();
+        manager.setName("John");
+        manager.setLastName("Smith");
+        manager.setSalary(2300);
+
+        System.out.println("Old salary - programmer:\t" + programmer.getSalary()
+                + "\n\t\t\t manager:\t\t" + manager.getSalary());
+
+        boss.salaryUp(programmer);
+        boss.salaryUp(manager);
+        
+        System.out.println("New salary - programmer:\t" + programmer.getSalary()
+                + "\n\t\t\t manager:\t\t" + manager.getSalary());
     }
 }
