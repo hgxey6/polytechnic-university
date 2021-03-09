@@ -97,7 +97,7 @@ public class EmployeeTest {
 
         boss.salaryUp(programmer);
         boss.salaryUp(manager);
-        
+
         System.out.println("New salary - programmer:\t" + programmer.getSalary()
                 + "\n\t\t\t manager:\t\t" + manager.getSalary());
     }

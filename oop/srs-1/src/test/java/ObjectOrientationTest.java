@@ -70,6 +70,5 @@ public class ObjectOrientationTest {
         System.out.println(x1.getClass().getName());
         System.out.println(x2.getClass().getName());
         System.out.println(x3.getClass().getName());
-        
     }
 }

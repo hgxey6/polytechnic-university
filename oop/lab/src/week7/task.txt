@@ -1,0 +1,10 @@
+    1. Pridumat’ koncepciyu: Transport (Mojno tol’ko odin uroven’ prostogo klassa)
+    2. Dobavit’ v etu koncepciyu 2 interfeisa, v etom interfeise doljno byt’:
+        a. 2 svoistva
+        b. 2 metoda (peregruzka toje budet schitat’sya kak 2 metoda)
+    3. Dobavit’ v etu koncepciyu 2 abstraktnyh klassa, v etom klasse doljno byt’:
+        a. 2 svoistva
+        b. 2 peremennyh, bez vneshnego dostupa
+        c. Odin metod abstraktnyi
+        d. Odin metod virtual’nyi
+        e. Odin metod bez vneshnego dostupa
