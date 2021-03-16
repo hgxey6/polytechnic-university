@@ -1,0 +1,29 @@
+    1. [1.5 balla] Sozdat’ interface: Chelovek
+        a. Svoistva:
+            i. Vozrast
+            ii. Rost
+            iii. Nacional’nost’
+        b. Metody:
+            i. Hodit’
+            ii. Kushat’
+            iii. Spat’
+            iv. Prosypat’sya
+    2. [1.5 balla] Sozdat’ abstraktnyi klass: Special’nost’, unasleduet ot Chelovek
+        a. Svoistva:
+            i. Nazvanie
+            ii. Trebovanie_Opyt
+            iii. Trebovanie_Bakalavr
+            iv. Zarplata
+        b. Abstraktnye Metody:
+            i. Rabotat’
+            ii. Poluchat’ zarplatu
+            iii. Idti v otpusk
+    3. [1.5 balla] Sozdat’ prostoi klass: Terapevt, unasleduet ot Special’nost’
+        a. Metody:
+            i. Konsul’tirovat’
+            ii. Stavit’ diagnoz
+    4. [1.5 balla] Sozdat’ prostoi klass: Hirurg, unasleduet ot Terapevt
+        a. Metody:
+            i. Operirovat’
+            ii. Rezat’
+            iii. Shit’
