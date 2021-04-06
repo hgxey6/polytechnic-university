@@ -1,0 +1,55 @@
+    1. Narisovat’ class diagrammu dlya koda:
+interface Human
+    {
+        int Age { get; set; }
+        int Tall { get; set; }
+        void Walk(int speed);
+        void Walk(float speed);
+        void Eat();
+    }
+
+    abstract class Worker
+    {
+        public int Years { get; set; }
+        public float Salary { get; set; }
+        public abstract void Start();
+        public abstract void Stop();
+    }
+
+    class Doctor : Worker
+    {
+        public void Heal() { }
+
+        public override void Start() { }
+
+        public override void Stop() { }
+
+        public void TakeAnalysis() { }
+    }
+
+    class Equipment
+    {
+        public string Type { get; set; }
+        public string Name { get; set; }
+    }
+
+    class Patient
+    {
+
+    }
+
+    class Surgerier : Doctor
+    {
+        public Equipment Eq {get;set;}
+        public Patient[] Patients { get; set; }
+        public void Resat() { }
+        private void Shit() { }
+    }
+
+    2. Sozdat’ Strategy pattern dlya koncepcii jizn’ Voennaya tehnika
+        a. Strelyat’ – uvidel vraga v radiuse 1km
+        b. Oborona – uviel vraga v radiuse bol’she chem 1km
+        c. Vpered
+        d. Vlevo
+        e. Vpravo
+Pridumaite dlya kajdogo deistviya svoii kody kak primer na lekcii I na praktike
