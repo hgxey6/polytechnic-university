@@ -1,0 +1,8 @@
+Sozdat’ singleton klass dlya voennoi chasti, so svoistvami:
+Opyt: int
+Imya: string
+Familiya: string
+Oklad: int
+s metodami:
+int Komandovat(int nomerKomandy) – vozvrashaet nomer prikaza
+void OstanovitPrikaz(int nomerPrikaza)
