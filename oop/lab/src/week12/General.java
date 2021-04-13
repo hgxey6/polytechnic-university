@@ -21,6 +21,14 @@ public class General {
         return uniqueInstance;
     }
 
+    public int toCommand(int a) {
+        return a;
+    }
+
+    public void cancelCommand(int a) {
+        // TODO: some action
+    }
+
     public String getFirstname() {
         return firstname;
     }

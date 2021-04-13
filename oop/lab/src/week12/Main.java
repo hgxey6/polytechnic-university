@@ -13,5 +13,15 @@ public class Main {
         System.out.println("general1 hashcode: " + general1.hashCode());
         System.out.println("general2 hashcode: " + general2.hashCode());
         System.out.println(general1.equals(general2));
+
+
+        Solder solder1 = new Solder();
+        solder1.setName("Dan");
+
+        Solder solder2 = new Solder();
+
+        System.out.println("solder1 hashcode: " + solder1.hashCode());
+        System.out.println("solder2 hashcode: " + solder2.hashCode());
+        System.out.println(solder1.equals(solder2));
     }
 }
