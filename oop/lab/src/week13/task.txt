@@ -1,0 +1,8 @@
+Sozdat’ Decorator patter dlya professii Web developer:
+Glavnyi karkas: Human
+Vtorichnyi karkas: Worker
+	Sozdat’ prostoi klass - Rab
+Tretii uroven’ karkasa: Programmer
+	Sozdat’ prostoi klass – Razrabochik
+Tretii uroven’ karkasa:  Web developer
+	Sozdat’ prostoi klass – ASP .Net Core developer
