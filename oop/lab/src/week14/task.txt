@@ -1,0 +1,7 @@
+Sozdat’ shablon Observer
+Predstavit’ chto est’ central’nyi kompyuter, kotoryi poluchaet informaciyu ot datchikov:
+    1. Pojarnaya
+    2. Signalizaciya
+    3. Gaz
+    4. Elektricheskaya
+    5. Voda
