@@ -1,0 +1,20 @@
+package com.company.coffee.dec;
+
+import com.company.coffee.types.Beverage;
+
+public class Milk extends CondimentDecorator {
+
+    Beverage beverage;
+
+    public Milk(Beverage beverage) {
+        this.beverage = beverage;
+    }
+
+    public String getDescription() {
+        return beverage.getDescription() + ", Milk";
+    }
+
+    public double cost() {
+        return 200 + beverage.cost();
+    }
+}
