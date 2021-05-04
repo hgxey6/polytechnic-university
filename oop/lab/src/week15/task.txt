@@ -1,0 +1,19 @@
+Sozdat’ Factory pattern dlya Myasnoi fabriki:
+Fabrika zanimaetsya proizvodstvom kalbasy, kalbasy mojno delat’ so sleduyushimi ingridientami:
+    1. Syr
+    2. Pomidor
+    3. Perec
+    4. Kuryatina
+    5. Govyadina
+    6. Baranina
+    7. Konina
+Pri zakaze nujno vybirat’ ingridienty
+
+Esli v proizvodstvo dobavite eshe I tushonki, poluchite bonus, toest’ esli mojno zakazat’ ne tol’ko kolbasu, no I tushonku. Tushonka imeet sledushie ingridienty (za polnuyu realizaciyu +4 balla, esli pravil’no labka, tol’ko togda proveryaetsya bonus):
+    1. Kuryatina
+    2. Govyadina
+    3. Baranina
+    4. Konina
+    5. Varennaya
+    6. Jarennaya
+    7. Ryby
