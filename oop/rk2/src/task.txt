@@ -1,0 +1,11 @@
+Narisovat’ UML(Mojete ne risvat’ dlya Singleton) diagrammu I napisat’ ee kod
+Sozdat' OOP dlya koncpecii Sem'ya (Ded, Babushka, Otec, Mama, Syn, Dochka). Est' interface task.Human (ot kotorogo nasleduyut vse), est' Abstraktnye klassy
+Pensioner, Web razrabochik, Domohozyaika, Shkol'nik i Detsadovec
+	interface task.Human:
+		Metody(vse void): Pit', Dyshat', Spat', Otdyhat', Kushat'
+		Svoistva: Vozrast, Rost, Cvet glaz, Cvet koji, Cvet volos, Pol
+	abstractnyi klassy Pensioner, Web razrabochik, Domohozyaika, Shkol'nik i Detsadovec (pridumat' samim, doljno byt' virtual metod, peregruzka, tol'ko chitaemye svoistva)
+	Prostye Singleton klassy Otec(unasleduet ot klassa Ded), Mama
+Kajdyi chlen sem’ii unaselduet ot interfeisa task.Human.
+	Klass sem'ya
+	Pri sozdanii dannogo klassa v nei doljny byt' vse ukazannye chleny semii, i chtoby vse rabotalo (pust' hot' cherez WriteLine)
